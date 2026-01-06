@@ -8,25 +8,23 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* 如果灰感来自边框/遮罩/混合，把这些也关掉 */
-.author__avatar,
-.author__avatar a,
+@media (min-width: 64em) {
+  .author__avatar img {
+    padding: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+  }
+}
+
+/* 移动端也统一去掉（保险） */
 .author__avatar img {
-  background: transparent !important;
+  padding: 0 !important;
+  border: 0 !important;
   box-shadow: none !important;
-  mix-blend-mode: normal !important;
+  background: transparent !important;
 }
-
 .author__avatar img {
-  border: 0 !important;
-  outline: 0 !important;
+  max-width: 200px;
 }
-
-/* 有些主题会给头像容器加灰色 ring */
-.author__avatar {
-  border: 0 !important;
-  outline: 0 !important;
-}
-
-
 
