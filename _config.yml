@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "Luyang Liu"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Luyang Liu"
+description              : "AAb"
 url                      : "https://luyangliu1998.github.io"
 baseurl                  : ""
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
