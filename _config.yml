@@ -137,6 +137,9 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
+custom_css:
+  - /assets/css/custom.css
+    
 # Site Footer
 footer:
   links:
