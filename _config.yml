@@ -26,9 +26,7 @@ author:
   name             : "Luyang Liu"
   pronouns         : # example: "she/her"  
   bio              : "PhD student at Shanghai Jiao Tong University (SJTU)"
-  location         : "800 DongChuan Road,
-  SEIEE Building #2-117,
-  Minhang District, Shanghai"
+  location         : "800 DongChuan Road<br>SEIEE Building #2-117<br>Minhang District, Shanghai"
   employer         : "Shanghai Jiao Tong University"
   uri              : # URL
   email            : "liuluyang@sjtu.edu.cn" 
